@@ -40,7 +40,7 @@ jobs:
       run: ISCC.exe fpp_view.iss
 
     - name: Upload Installer
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: box_design
         path: 'res\installer\output\**'
